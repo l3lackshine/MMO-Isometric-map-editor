@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "electron-vite dev",
     "build": "tsc -p tsconfig.json && electron-vite build",
-    "build:win": "npm run build && electron-builder --win nsis",
+    "build:win": "npm run build && electron-builder --win nsis --publish never",
     "preview": "electron-vite preview"
   },
   "dependencies": {
